@@ -1,0 +1,79 @@
+@media screen and (max-width: 1100px) {
+
+    h1 {font-size: 28px;}
+
+    .col-left {
+        padding: 40px;
+        border-radius: 10px 0 0 10px;
+    }
+
+    .main-paragraph { padding: 15px 10px 20px 0;}
+
+    .chiffre { padding-right: 20px;}
+
+    .stat-headings {font-size: 20px;}
+
+}
+
+@media screen and (max-width: 768px) {
+
+    h1 {font-size: 22px;}
+
+    .col-left { padding: 35px;}
+
+    .main-paragraph { padding: 0 0 10px 0;}
+
+    .chiffre { padding-right: 0px;}
+
+    .stat-headings {font-size: 17px;}
+
+    h3 {font-size: 12px;}
+    
+}
+
+@media screen and (max-width: 580px) {
+
+    body {
+        height: 100%;
+        padding: 25px;
+    }
+
+    h1 {text-align: center;}
+
+    .main-paragraph {text-align: center;}
+
+    .container {
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+
+    .col {
+        width: auto;
+    }
+
+    .col-right {
+        border-radius: 10px 10px 0 0;
+        width: 100%;
+    }
+
+    .col-right {
+        height: 70vw;
+    }
+
+    .col-left {
+        width: 100%;
+        padding: 25px;
+        background-color: hsl(244, 38%, 16%);
+        border-radius: 0 0 10px 10px;
+    }
+
+    .chiffre { 
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .chiffre div {
+        margin-top: 10px;
+    }
+    
+}
